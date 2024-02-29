@@ -96,6 +96,7 @@ header#header {
 
 #section-header a.button:hover {
     background-color: rgb(165, 83, 36);
+    transition: .6s;
 }
 
 #section-header .image img {
@@ -209,4 +210,35 @@ header#header {
 #section-call a.button:hover {
     background-color: rgb(165, 83, 36);
     border: 2px solid rgb(80, 52, 1);
+    transition: .6s;
+}
+
+/* ============== section footer ================*/
+
+section#section-footer {
+    background-color: #1F2937;
+}
+
+#section-footer footer {
+    padding: 3rem;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#section-footer footer > p,
+#section-footer footer > span {
+    font-size: 1.2rem;
+    color: white;
+}
+
+#section-footer footer > p > a {
+    color: white;
+}
+
+#section-footer footer > p > a:hover {
+    color: rgb(165, 83, 36);
+    text-decoration: underline;
+    transition: .4s;
 }
