@@ -125,3 +125,38 @@ div.container .text .button {
     border-radius: 1rem;
     border: 4px solid #3882F6;
 }
+
+/* ============== section three ================*/
+
+#section-text {
+    background-color: #E5E7EB;
+    height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-text div.title {
+    display: flex;
+    flex-direction: column;
+
+    width: 790px;
+
+    gap: 1rem;
+}
+
+#section-text div.title p.text > em {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+#section-text div.title p > span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1F2937;
+    
+    display: flex;
+    justify-content: end;
+}
