@@ -1,0 +1,97 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#section-header {
+    background-color: #1F2937;
+    height: 600px;
+}
+
+header#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 1rem;
+    gap: 2rem;
+}
+
+#header nav.container > a {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#header nav.container > a:hover {
+    color: rgb(198, 201, 52);
+}
+
+#header .menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#header .menu li a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#section-header div.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin-top: 6rem;
+    color: white;
+}
+
+#section-header div.container .text {
+    width: 400px;
+}
+
+#section-header div.container .text h1 {
+    font-size: 48px;
+}
+
+#section-header div.container .text p {
+    margin-top: .8rem;
+    font-size: 1.2rem;
+}
+
+div.container .text .button {
+    display: flex;
+    justify-content: center;
+
+    background-color: #3882F6;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    width: 140px;
+
+    padding: .8rem;
+    margin-top: 1rem;
+
+    border-radius: .5rem;
+}
+
+#section-header .image img {
+    height: 300px;
+}
