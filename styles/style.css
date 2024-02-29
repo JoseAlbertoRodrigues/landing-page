@@ -95,3 +95,33 @@ div.container .text .button {
 #section-header .image img {
     height: 300px;
 }
+
+/* ============== section two ================*/
+
+#section-main {
+    background-color: white;
+
+    height: 70vh;
+}
+
+#section-main div.text h2 {
+    color: #1F2937;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#section-main .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+#section-main .image img {
+    width: 160px;
+    height: 165px;
+
+    border-radius: 1rem;
+    border: 4px solid #3882F6;
+}
